@@ -33,7 +33,7 @@ export default function Header() {
             underline="none"
             to="/"
           >
-            My Store! SOME MINOR BUT VISIBLE CHANGES - NEW ACCOUNT - AUTOMATED DEPLOY!!!
+            My Store! SOME MINOR BUT VISIBLE CHANGES - NEW ACCOUNT - AUTOMATED DEPLOY - CLOUDFRONT DISTRIBUTION!!!
           </Link>
         </Typography>
 
