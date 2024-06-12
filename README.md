@@ -1,9 +1,9 @@
 # React-shop-cloudfront
 
 ## Deployment
-- [S3 manual Deployment](http://rss-aws-cloud-developer-task-2.s3-website-eu-west-1.amazonaws.com)
+- [S3 manual Deployment](http://rss-aws-cloud-developer-module-2-manual.s3-website-eu-west-1.amazonaws.com/)
 - CloudFront manual deployment
-- [S3 automated deployment](http://rss-aws-cloud-developer-task-2-automated-deploy.s3-website-eu-west-1.amazonaws.com/)
+- [S3 automated deployment](http://rss-aws-cloud-developer-module-2-automated.s3-website-eu-west-1.amazonaws.com/)
 - CloudFront automated deployment
 
 This is frontend starter project for nodejs-aws mentoring program. It uses the following technologies:

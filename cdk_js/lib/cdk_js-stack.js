@@ -13,8 +13,8 @@ class CdkJsStack extends Stack {
         super(scope, id, props);
 
         // Create S3 bucket
-        const bucket = new s3.Bucket(this, 'rss-aws-cloud-developer-task-2-automated-deploy', {
-            bucketName: "rss-aws-cloud-developer-task-2-automated-deploy",
+        const bucket = new s3.Bucket(this, "rss-aws-cloud-developer-module-2-automated", {
+            bucketName: "rss-aws-cloud-developer-module-2-automated",
             websiteIndexDocument: "index.html",
             websiteErrorDocument: "index.html",
             publicReadAccess: true,
@@ -24,7 +24,7 @@ class CdkJsStack extends Stack {
         });
 
         // Deploy to S3 bucket
-        new s3deploy.BucketDeployment(this, "rss-aws-cloud-developer-task-2-automated-deploy-Deployment", {
+        new s3deploy.BucketDeployment(this, "rss-aws-cloud-developer-module-2-automated-Deployment", {
             sources: [s3deploy.Source.asset("../dist")],
             destinationBucket: bucket,
         });
