@@ -1,5 +1,7 @@
 # React-shop-cloudfront
 
+### [Task 3 (First API with AWS API Gateway and AWS Lambda)](https://github.com/rolling-scopes-school/aws/blob/main/aws-developer/03_serverless_api/task.md)
+
 ## Deployment
 - Manual:
   - [S3 manual Deployment](http://rss-aws-cloud-developer-module-2-manual.s3-website-eu-west-1.amazonaws.com)
